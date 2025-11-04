@@ -1,0 +1,47 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    unnecessary_getters_setters: error
+    unnecessary_overrides: error
+    unnecessary_statements: error
+    unnecessary_this: error
+    use_key_in_widget_constructors: error
+
+  exclude:
+    - .flutter-plugins/**
+    - .flutter-plugins-dependencies/**
+    - .pub-cache/**
+    - .pub/**
+    - build/**
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_require_non_null_named_parameters
+    - annotate_overrides
+    - avoid_init_to_null
+    - avoid_relative_lib_imports
+    - avoid_return_types_on_setters
+    - avoid_unused_constructor_parameters
+    - camel_case_types
+    - constant_identifier_names
+    - empty_constructor_bodies
+    - empty_statements
+    - library_names
+    - library_prefixes
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - prefer_collection_literals
+    - prefer_final_fields
+    - slash_for_doc_comments
+    - super_goes_last
+    - type_init_formals
+    - unnecessary_brace_in_string_interps
+    - unnecessary_getters_setters
+    - unused_element
+    - unused_import
+    - unused_local_variable
+    - valid_regexps
